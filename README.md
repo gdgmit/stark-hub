@@ -2,7 +2,7 @@
 
 # StarkHub <img src="https://freepngimg.com/download/chibi/149662-chibi-iron-man-png-download-free.png" alt="Back to Top" width="35" height="35">
 
-Welcome to the **StarkHub** project, developed as part of Google Developer Group on Campus MIT’s "Introduction to GitHub & Open Source Workshop." This open-source portfolio website pays tribute to the iconic character Tony Stark, also known as Iron Man, with a sleek, modern interface inspired by the high-tech innovation of Stark Industries. StarkHub is designed to showcase projects, skills, and experiences in a visually striking way, capturing the spirit of innovation and creativity. Whether you’re here to learn, contribute, or be inspired, join us in building a portfolio worthy of a tech genius! 🚀
+Welcome to the **StarkHub** project, developed as part of [Google Developer Group on Campus MIT's](https://gdg.community.dev/gdg-on-campus-madras-institute-of-technology-chennai-india/) "Introduction to GitHub & Open Source Workshop". This open-source portfolio website pays tribute to the iconic character Tony Stark, also known as Iron Man, with a sleek, modern interface inspired by the high-tech innovation of Stark Industries. StarkHub is designed to showcase projects, skills, and experiences in a visually striking way, capturing the spirit of innovation and creativity. Whether you’re here to learn, contribute, or be inspired, join us in building a portfolio worthy of a tech genius! 🚀
 
 <img align="right" src="https://i.pinimg.com/originals/a8/d5/ba/a8d5baeb06fc12c77ccefd0121010d20.gif" alt="Back to Top" width="255" height="255">
 
