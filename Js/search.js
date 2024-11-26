@@ -24,8 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
         if (query) {
             const matches = websiteContent.filter(item =>
-            item.title.toString().toLowerCase().includes(query) ||
-            item.text?.toString().toLowerCase().includes(query)
+            item.title.toString().toLowerCase().includes(query)
             );
     
             if (matches.length > 0) {
