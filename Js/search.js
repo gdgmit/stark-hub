@@ -30,20 +30,15 @@ document.addEventListener('DOMContentLoaded', () => {
     
             if (matches.length > 0) {
                 matches.forEach(item => {
-                    // const newUrl = `${window.location.origin}${window.location.pathname}?search=${encodeURIComponent(query)}`;
-                    // history.pushState(null, '', newUrl);
                     if(item.title === 'About'){
                         scrollToSection(event, 'about');
                     }
                     else{
                         window.location.href = item.url;
                     }
-                    // performFunction(item.url);
-                    // alert("Page found");
                 });
             } else {
-                // searchResults.innerHTML = '<p>No results found.</p>';
-                alert("Page not found!");
+                alert("Page not found!, Try using related keywords");
             }
         }
     });
