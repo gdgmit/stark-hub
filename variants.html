@@ -12,7 +12,7 @@
     <link rel="website icon" href="/assets/logo/icon.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+    <script src="Js/search.js"></script>
     
     
 </head>
@@ -27,19 +27,19 @@
     <nav class="navbar h-nav background">
         <ul class="nav-list visibility">
             <div class="logo" id="ironmask" ><a href="./index.html"><img src="assets\logo\icon.png" alt="logo" srcset=""></a></div>
-            <li> <a href="#home" class="active" onclick="scrollToSection(event, 'home')" >Home</a></li>
+            <li> <a href="index.html" class="active" onclick="scrollToSection(event, 'home')" >Home</a></li>
             <li> <a href="#about" onclick="scrollToSection(event, 'about')">About</a></li>
             <li> <a href="Appearances.html">Appearances</a></li>
             <li> <a href="Comics.html">Comics</a></li>
-        <li> <a href="#contact">Contact</a></li>
+        <li> <a href="index.html#contact">Contact</a></li>
         </ul>
 
         <div class="rightNav visibility">
-            <form class="search-bar">
-            <input type="text" name="search"  placeholder="Search the website">
-            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-        </div>
+          <form class="search-bar" id="searchForm">
+              <input type="text" id="search-bar" name="search" placeholder="Search the website">
+              <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+      </div>
         <div class="burger">
             <div class="line"></div>
             <div class="line"></div>
@@ -140,6 +140,6 @@ const goTopBtn = document.querySelector('.go-top-btn');
        
       });
     </script>
-
+    <script src="Js/search.js"></script>
     </body>
 </html>
